@@ -1,32 +1,29 @@
-# React Developer Portfolio template
-#### Live Demo https://react-portfolio-v1.netlify.app/
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
+# React Developer Portfolio 
 ### Preview ( Dark Mode )
 
 <img src="/preview.gif" alt="preview" width="600px" />
 
-## Follow Below instructions to add your deatils in the portfolio.
-
-### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
-
-#### Open `/src/Details.js` & modify it as per your need.
 
 ```javascript
-/ Enter your Personal Details here
+// Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Avantika Khanna",
+  tagline: "I am a Technophile.",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am a 3rd year undergraduate student. I have strong problem solving, analytics,decision making and excellent communication with interpersonal skills. I pay attention to details and am able to interpret data and trends,diagnose problems, and formulate effective actions plans to resolve issues. I am self-driven and motivated with entrepreneurial passion and desire to work in a fast-paced, result driven environment with varied responsibilities.
+
+  • I have scored a combined aggregate score of 8 or above across all semesters
+  • I possess an extremely sound understanding in the basic areas of computer science such as Data structures , Algorithms, Object Oriented Programming and Design.
+  • I have a good command on C/C++.
+  
+  Though I don't have much real world experience but I am a keen and quick learner and I am ready to put my 100% in whatever I do.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
+  linkdein: "https://www.linkedin.com/in/avantika-khanna-586783228/",
+  github: "https://github.com/avanti77",
+  twitter: "https://twitter.com/_a_one_7804",
   instagram: "https://www.instagram.com/",
 };
 
@@ -34,22 +31,9 @@ export const socialMediaUrl = {
 export const workDetails = [
   {
     Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
-
-// Enter your Education Details here
-export const eduDetails = { ... };
-
-// Tech Stack and Tools
-export const techStackDetails = { ... };
-
-// Enter your Project Details here
-export const projectDetails = [ ... ];
-
-// Enter your Contact Details here
-export const contactDetails = { ... };
+    Company: `TBI GEU`,
+    Location: "Dehradun",
+    Type: "Internship",
+    Duration: "April 2024 - June 2024",
+  },
 ```
