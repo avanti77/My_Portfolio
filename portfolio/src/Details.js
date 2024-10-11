@@ -30,7 +30,9 @@ import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
-
+import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage7 from "./assets/projects/project7.jpg";
 
 // Logos
 export const logos = {
@@ -43,7 +45,7 @@ export const personalDetails = {
   name: "Avantika Khanna",
   tagline: "I am a Technophile.",
   img: profile,
-  about: `I am a 3rd year undergraduate student. I have strong problem solving, analytics,decision making and excellent communication with interpersonal skills. I pay attention to details and am able to interpret data and trends,diagnose problems, and formulate effective actions plans to resolve issues. I am self-driven and motivated with entrepreneurial passion and desire to work in a fast-paced, result driven environment with varied responsibilities.
+  about: `I am a final year Btech student at Graphic Era University. I have strong problem solving, analytics,decision making and excellent communication with interpersonal skills. I pay attention to details and am able to interpret data and trends,diagnose problems, and formulate effective actions plans to resolve issues. I am self-driven and motivated with entrepreneurial passion and desire to work in a fast-paced, result driven environment with varied responsibilities.
 
   • I have scored a combined aggregate score of 8 or above across all semesters
   • I possess an extremely sound understanding in the basic areas of computer science such as Data structures , Algorithms, Object Oriented Programming and Design.
@@ -63,7 +65,7 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
+    Position: "Full Stack Web Development Intern",
     Company: `TBI GEU`,
     Location: "Dehradun",
     Type: "Internship",
@@ -136,12 +138,28 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "FrontEnd of Ecommerce Website",
-    image: projectImage1,
-    description: `Developed FrontEnd of a food delivery application using the react with a focus on user-friendly React components. Implemented features for user authentication, shopping cart functionality`,
-    techstack: "React.js, Redux, CSS",
-    previewLink: "https://github.com/avanti77/Frontend-Food-Ordering-Website",
-    githubLink: "https://github.com/avanti77/Frontend-Food-Ordering-Website",
+    title: "Gmail Clone",
+    image: projectImage5,
+    description: `Developed a Gmail clone with core features including email composition, sending, and management.Integrated with various Google services and implemented robust security measures`,
+    techstack: "React, Node.js, Express.js, MongoDB)",
+    previewLink: "https://github.com/avanti77/Simulation_of_Gmail",
+    githubLink: "https://github.com/avanti77/Simulation_of_Gmail",
+  },
+  {
+    title: "Real Estate Management System",
+    image: projectImage6,
+    description: `Addressed real-world challenges by providing a comprehensive platform for property owners and buyers, improving transaction transparency and user experience`,
+    techstack: "MongoDB, Express.js, React.js, Node.js, Firebase",
+    previewLink: "https://github.com/avanti77/Real-E-State-Management-System-master",
+    githubLink: "https://github.com/avanti77/Real-E-State-Management-System-master",
+  },
+  {
+    title: "Weather Forecast Website",
+    image: projectImage7,
+    description: `- Developed a user-friendly weather website offering real-time weather conditions and forecasts.Integrated weekly forecasts with detailed data on pressure, windspeed, and humidity`,
+    techstack: "React.js, CSS, OpenWeather API",
+    previewLink: "https://github.com/avanti77/Weather_application-",
+    githubLink: "https://github.com/avanti77/Weather_application-",
   },
   {
     title: "Student Result Management System",
