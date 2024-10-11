@@ -105,7 +105,7 @@
 
 
 import React from 'react';
-import Resumes from '../assets/avantika___resume.pdf';
+import Resumes from '../assets/avantika_cv.pdf';
 import { FaFilePdf } from 'react-icons/fa';
 
 const Resume = () => {
